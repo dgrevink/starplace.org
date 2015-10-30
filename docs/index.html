@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>Kunstnerisk | Documentation</title>
+
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type='text/css' href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Fontawesome -->
+<link rel="stylesheet" type='text/css' href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+
+<!-- Google Fonts -->
+<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Lato:300,400'>
+
+<style type="text/css">
+
+h1, h2, h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+p, ul {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+ul li {
+	list-style: none;
+}
+
+.text-green {
+	color: #29DCB2;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.margin-top-30 {
+	margin-top: 30px;
+}
+
+.margin-bottom-30 {
+	margin-bottom: 30px;
+}
+
+.margin-bottom-50 {
+	margin-bottom: 50px;
+}
+
+</style>
+
+<body>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->    
+                
+ <div class="container">
+ 	<div class="row">
+ 		<div class="col-lg-12">
+
+ 			<div class="row">
+ 				<div class="col-lg-12">
+					<div class="text-center margin-top-30">
+						<img src="img/logo.jpg" alt="Kunstnerisk">
+					</div>
+
+		 			<h1 class="text-green text-center">Kunstnerisk v1.0 </h1>
+					<h3 class="text-center margin-bottom-50">A Responsive Bootstrap 3 Theme for Jekyll</h3>
+		 			<p>Welcome to the documentation of Kunstnerisk, a responsive HTML5/CSS3 theme for jekyll</p>
+		 			<p>Release date: <span class="bold">August 12, 2014</span></p>
+	 			</div>
+ 			</div>
+
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+				<h2 class="text-green">Folder Structure:</h2>
+				<pre>
+	├── Gruntfile.js
+	├── _config.yml
+	├── _includes
+	│   ├── contact.html
+	│   ├── features.html
+	│   ├── footer.html
+	│   ├── header.html
+	│   ├── home-blockquote.html
+	│   ├── image-hero.html
+	│   ├── navbar.html
+	│   ├── pricing-tables.html
+	│   ├── services.html
+	│   └── work-gallery.html
+	├── _js
+	│   ├── console-errors.js
+	│   ├── document-ready.js
+	│   ├── google-maps.js
+	│   ├── widgets-config.js
+	│   ├── window-onload.js
+	│   └── window-resize.js
+	├── _layouts
+	│   └── default.html
+	├── _less
+	│   ├── main.less
+	│   └── modules
+	│       ├── buttons.less
+	│       ├── custom-variables.less
+	│       ├── features-gallery.less
+	│       ├── general.less
+	│       ├── margin.less
+	│       ├── mixins.less
+	│       ├── mosaic-gallery.less
+	│       ├── navigation.less
+	│       ├── padding.less
+	│       ├── pricing-tables.less
+	│       ├── responsive.less
+	│       ├── typography.less
+	│       └── variables.less
+	├── css
+	│   └── main.css
+	├── fonts
+	│   ├── glyphicons-halflings-regular.eot
+	│   ├── glyphicons-halflings-regular.svg
+	│   ├── glyphicons-halflings-regular.ttf
+	│   └── glyphicons-halflings-regular.woff
+	├── icons
+	│   ├── apple-touch-icon-114-precomposed.png
+	│   ├── apple-touch-icon-144-precomposed.png
+	│   ├── apple-touch-icon-57-precomposed.png
+	│   ├── apple-touch-icon-72-precomposed.png
+	│   └── favicon.png
+	├── index.html
+	├── js
+	│   ├── html5shiv.js
+	│   ├── jquery.hidenavbaronscroll.js
+	│   ├── main.js
+	│   ├── modernizr-2.6.2.min.js
+	│   ├── respond.min.js
+	│   ├── retina.min.js
+	│   └── skrollr.min.js
+	├── media
+	│   ├── img
+	│   │   ├── background-image-01.jpg
+	│   │   ├── bottom-diagonal.png
+	│   │   ├── hero-image.jpg
+	│   │   ├── navbar-diagonal-caribbean-green.png
+	│   │   ├── navbar-diagonal-deep-carmine-pink.png
+	│   │   ├── navbar-diagonal-golden-poppy.png
+	│   │   ├── navbar-diagonal-summer-sky.png
+	│   │   ├── top-diagonal.png
+	│   │   ├── work-01.jpg
+	│   │   ├── work-02.jpg
+	│   │   ├── work-03.jpg
+	│   │   ├── work-04.jpg
+	│   │   ├── work-05.jpg
+	│   │   ├── work-06.jpg
+	│   │   ├── work-07.jpg
+	│   │   └── work-08.jpg
+	│   └── logo
+	│       ├── logo_regular.png
+	│       └── logo_small.png
+	└── package.json
+					</pre>
+				</div>
+
+			<div class="col-lg-6 col-md-6">
+				<h2 class="text-green">Prerequisites.</h2>
+				<p class="margin-bottom-30">Please make sure you have installed all prerequisites before you continue with this documentation:</p>
+	 			<ul>
+	 				<li><a href="http://nodejs.org/">Node.js</a></li>
+	 				<li><a href="http://gruntjs.com/">Grunt</a></li>
+	 				<li><a href="http://jekyllrb.com/docs/home/">Jekyll</a></li>
+	 			</ul>
+
+				<h2 class="text-green">Vendors.</h2>
+				<p class="margin-bottom-30">Third party CSS/JavaScript libraries used in this theme:</p>
+				<ul>
+					<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+					<li><a href="http://fontawesome.io/">Font Awesome</a></li>
+					<li><a href="https://github.com/fractma/jquery.hidenavbaronscroll.js">jquery.hidenavbaronscroll.js</a></li>
+					<li><a href="https://code.google.com/p/html5shiv/">html5shiv.js</a></li>
+					<li><a href="http://modernizr.com/">modernizr.js</a></li>
+					<li><a href="https://github.com/scottjehl/Respond">respond.js</a></li>
+					<li><a href="https://github.com/imulus/retinajs">retina.js</a></li>
+					<li><a href="https://github.com/Prinzhorn/skrollr">skrollr.js</a></li>
+				</ul>
+
+	 			<h2 class="text-green">Installing Node.js Dependencies.</h2>
+	 			<p class="margin-top-30 margin-bottom-30">Open Terminal (Mac OS) or Command Prompt (Windows), access to the source folder and type:</p>
+	 			<code>
+	 				$ npm install
+	 			</code>
+	 			
+	 			<p class="margin-top-30 margin-bottom-30">In some cases, depending on your system configuration, you will need to run the task as administrator:</p>
+	 			<code>
+	 				$ sudo npm install
+	 			</code>
+	 			
+	 			<p class="margin-top-30 margin-bottom-30">This task will download and install all Node.js dependencies you need in order to run the jekyll site and store them at a folder named: <code>node_modules</code> Once the process ends, you need to run the following grunt command to publish and serve the jekyll site:</p>
+	 			<code>
+	 				$ grunt watch
+	 			</code>
+	 			
+	 			<p class="margin-top-30 margin-bottom-30">This process will concatenate all JavaScript files, compile LESS files into the main StyleSheet, copy all files to a folder at the same level of the source folder called: Kunstnerisk and start a server on port 1984 so you can access the site on your web browser with the following address:</p>
+	 			<code>
+	 				http://localhost:1984/
+	 			</code>
+	 			
+	 			<p class="margin-top-30 margin-bottom-30">Any change made to the source code (HTML/CSS/JS) while the process still running will fire up the compilation of the site and keep the server alive.</p>
+
+	 			<h2 class="text-green">Notes.</h2>
+	 			<p>A compiled version of the site is delivered with this theme, where the product is a simple HTML/CSS/JS site for any other use.</p>
+			</div>
+ 		</div>
+
+ 		<div class="row">
+ 			<div class="col-lg-12">
+ 				<h2 class="text-green">Configuring your site.</h2>
+	 			
+	 			<p class="margin-top-30 margin-bottom-30">The site is fully customizable by editing the <code>_config.yml</code> file and rerunning the grunt process, all section of this one-page site are well documented.</p>
+
+	 			<p>Some examples of what you can edit</p>
+
+	 			<h3>Main logo.</h3>
+	 			<p>Just change the value fo both varialbes with the route of the regular and small logos</p>
+	 			<pre>
+# Main Logo
+# -------------------------
+
+logo_regular: "media/logo/logo_regular.png"
+logo_small_devices: "media/logo/logo_small.png"	 				
+	 			</pre>
+
+	 			<h3>Main Navigation Links</h3>
+	 			<p>For each combination of title and url one item will be created on the menu, please consider that indentation and the dash (-) on the begining of each pair is required.</p>
+	 			<pre>
+# Main Navigation Links
+# -------------------------
+
+navbar_links:
+  - title: "Home"
+    url: "#image-hero"
+  - title: "Features"
+    url: "#features"
+  - title: "Services"
+    url: "#services"
+  - title: "Work"
+    url: "#work"    
+  - title: "Pricing Tables"
+    url: "#pricing-tables"
+  - title: "Contact"
+    url: "#contact"	 				
+	 			</pre>
+
+
+				<h3>Navigation Background Diagonal Color</h3>
+				<p>The bottom diagonal of the main navigation can be configured with four pre made colors.</p>
+				<pre>
+# Navigation Background Color. 
+# Options: caribbean-green, summer-sky, golden-poppy, deep-carmine-pink
+navbar_color: "caribbean-green"
+				</pre>
+
+				<h3>Home</h3>
+				<p>Title and tag line of the site.</p>
+				<pre>
+# Image Hero
+# -------------------------
+
+title:            "Kunstnerisk"
+tagline:      	  "a responsive bootstrap three theme for jekyll"					
+				</pre>
+
+				<h3>Features</h3>
+				<p>Each combinaion of title, icon and description makes a single item for the features gallery.</p>
+				<pre>
+# Features Thumbs
+# -------------------------
+
+features_thumbs:
+  - title: "Clean Code"
+    icon: "code"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ipsam a illum, ducimus quod impedit architecto distinctio dolorem amet dignissimos ad corrupti! Fugit aut earum in sit, placeat quis consequatur."
+  - title: "Build with Jekyll"
+    icon: "flask"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ipsam a illum, ducimus quod impedit architecto distinctio dolorem amet dignissimos ad corrupti! Fugit aut earum in sit, placeat quis consequatur."
+  - title: "Unique Design"
+    icon: "file-image-o"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ipsam a illum, ducimus quod impedit architecto distinctio dolorem amet dignissimos ad corrupti! Fugit aut earum in sit, placeat quis consequatur."
+  - title: "Responsive"
+    icon: "mobile"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ipsam a illum, ducimus quod impedit architecto distinctio dolorem amet dignissimos ad corrupti! Fugit aut earum in sit, placeat quis consequatur."
+  - title: "Easy Color Change"
+    icon: "bolt"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ipsam a illum, ducimus quod impedit architecto distinctio dolorem amet dignissimos ad corrupti! Fugit aut earum in sit, placeat quis consequatur."
+  - title: "439 Icons"
+    icon: "flag"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ipsam a illum, ducimus quod impedit architecto distinctio dolorem amet dignissimos ad corrupti! Fugit aut earum in sit, placeat quis consequatur."
+  - title: "Google Maps"
+    icon: "map-marker"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ipsam a illum, ducimus quod impedit architecto distinctio dolorem amet dignissimos ad corrupti! Fugit aut earum in sit, placeat quis consequatur."
+  - title: "Fullscreen Background"
+    icon: "expand"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ipsam a illum, ducimus quod impedit architecto distinctio dolorem amet dignissimos ad corrupti! Fugit aut earum in sit, placeat quis consequatur."	
+				</pre>
+
+				<h3>Blockquote</h3>
+				<p>Main blockquote. tag line and action button below.</p>
+				<pre>
+# Blockquote
+# -------------------------
+
+blockquote: 
+   text: "We develop online marketing solutions that help enterprises accurately identify the consumers that truly need their services."
+   tagline: "Serving the community since 2014"
+   button_text: "Read More"
+   button_url: "#_"					
+				</pre>
+				
+				<h3>Services</h3>
+				<p>Each service contains a title, icon and description.</p>
+				<pre>
+# Services
+# -------------------------
+
+services:
+ - title: "Front-End Development"
+   icon: "desktop"
+   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur officiis vel aspernatur. Quidem eligendi sequi veritatis vel recusandae porro maxime corporis id, deleniti harum alias asperiores soluta unde aliquam."
+ - title: "iOS Development"
+   icon: "apple"
+   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur officiis vel aspernatur. Quidem eligendi sequi veritatis vel recusandae porro maxime corporis id, deleniti harum alias asperiores soluta unde aliquam."
+ - title: "UI/UX Design"
+   icon: "magic"
+   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur officiis vel aspernatur. Quidem eligendi sequi veritatis vel recusandae porro maxime corporis id, deleniti harum alias asperiores soluta unde aliquam." 				
+				</pre>
+
+				<h3>Work Gallery</h3>
+				<p>Each thumb contains a title, description, image and url</p>
+				<pre>
+# Work Mosaic
+# -------------------------
+
+work_thumbs:
+ - title: "Maxime Corporis Set"
+   description: "Fugit aut earum in sit, placeat quis consequatur."
+   url: "#_"
+   image: "media/img/work-01.jpg"
+ - title: "Veritatis Vel Recusandae"
+   description: "Fugit aut earum in sit, placeat quis consequatur."
+   url: "#_"
+   image: "media/img/work-02.jpg"
+ - title: "Consectetur Adipisicing"
+   description: "Fugit aut earum in sit, placeat quis consequatur."
+   url: "#_"
+   image: "media/img/work-03.jpg"
+ - title: "Asperiores Soluta"
+   description: "Fugit aut earum in sit, placeat quis consequatur."
+   url: "#_"
+   image: "media/img/work-04.jpg"
+ - title: "Officiis Aspernatur"
+   description: "Fugit aut earum in sit, placeat quis consequatur."
+   url: "#_"
+   image: "media/img/work-05.jpg"   
+ - title: "Soluta Asperiores"
+   description: "Fugit aut earum in sit, placeat quis consequatur."
+   url: "#_"
+   image: "media/img/work-06.jpg"
+ - title: "Adipisicing Consectetur"
+   description: "Fugit aut earum in sit, placeat quis consequatur."
+   url: "#_"
+   image: "media/img/work-07.jpg"
+ - title: "Maxime Corporis Set"
+   description: "Fugit aut earum in sit, placeat quis consequatur."
+   url: "#_"
+   image: "media/img/work-08.jpg"					
+				</pre>
+
+				<h3>Contact</h3>
+				<p>Details for Google Maps latitude and longotude for the pin, as well as detailed info for the contact.</p>
+				<pre>
+# Contact
+# -------------------------
+
+contact:
+latitude: "37.3321722"
+longitude: "-122.0305748"
+marker_title: "Apple Incorporated."
+marker_address: "1 Infinite Loop Cupertino, CA 95014"
+phone_number: "(321) 402-1098"
+email_address: "hello@kunstnerisk.com"
+				</pre>
+
+				<h2 class="text-green">Extra edits.</h2>
+				<p>All partial view are separated on fully editable html files located on the <code>_includes</code> folder, all separated elements are called by the <code>index.html</code> file, any custom edit must be performed on the following files:</p>
+				<pre>
+├── _includes
+│   ├── contact.html
+│   ├── features.html
+│   ├── footer.html
+│   ├── header.html
+│   ├── home-blockquote.html
+│   ├── image-hero.html
+│   ├── navbar.html
+│   ├── pricing-tables.html
+│   ├── services.html
+│   └── work-gallery.html					
+				</pre>
+				
+				<div class="margin-bottom-50">
+					<h2 class="text-green">Contacting Fractma</h2>
+					<p>Feel free to contact me with any other question regarding this theme thought the contact form at my user profile page at:</p>
+					<a href="http://themeforest.net/user/fractma">http://themeforest.net/user/fractma</a>
+				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>       
+    
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
