@@ -82,6 +82,12 @@ $(document).ready(function() {
     	language = Cookies.get('language');
     }
 
+    $('a.work').click(function(){
+    	$('#myModal .description').html($(this).data('content'));
+    	$('#myModal .image').attr('src', $(this).data('image'));
+		$("#myModal").mikesModal();
+    });
+
 });
 
 /* ==========================================================================
@@ -119,15 +125,15 @@ var widgetsConfig = function() {
 	});
 
 	// Skrollr init
-	if (matchMedia('(min-width: 1140px)').matches) { 
-		skrollr.init( { 
-			forceHeight: false 
+	if (matchMedia('(min-width: 1140px)').matches) {
+		skrollr.init( {
+			forceHeight: false
 		});
 	}
 
 	// Tooltips
 	var $allTooltips = $('[rel=tooltip]');
-	$allTooltips.tooltip({placement: 'top'}).css('z-index', 2080);	
+	$allTooltips.tooltip({placement: 'top'}).css('z-index', 2080);
 
 }
 
@@ -135,7 +141,7 @@ var repositionWelcome = function() {
 
 	// Welcome text for hero
 	$welcome 	= $('.welcome');
-	welcomeTop  = ((windowHeight/2) - ($welcome.height()/2)) + "px";
+	welcomeTop  = ((windowHeight/2) - ($welcome.height()/2) - 100) + "px";
 	$welcome.css({ position : 'absolute', top : welcomeTop });
 
 }

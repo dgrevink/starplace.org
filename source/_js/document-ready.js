@@ -38,4 +38,10 @@ $(document).ready(function() {
     	language = Cookies.get('language');
     }
 
+    $('a.work').click(function(){
+    	$('#myModal .description').html($(this).data('content'));
+    	$('#myModal .image').attr('src', $(this).data('image'));
+		$("#myModal").mikesModal();
+    });
+
 });
