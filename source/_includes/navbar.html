@@ -10,7 +10,7 @@
 						<span class="icon-bar"></span>
 					</button>
 
-					<a class="navbar-brand" href="{{ site.navbar_links[0].url }}">
+					<a class="navbar-brand" href="{{ site.navbar_links[page.language][0].url }}">
 						<div class="visible-lg visible-md margin-top-10">
 							<img src="{{ site.logo_regular }}" alt="{{ site.name }} Logo">
 						</div>
@@ -23,14 +23,19 @@
 
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
-						{% for link in site.navbar_links %}
+						{% for link in site.navbar_links[page.language] %}
 						<li><a href="{{ link.url }}">{{ link.title }}</a></li>
 						{% endfor %}
+						{% if page.language == 'fr' %}
+						<li><a href="/">EN</a></li>
+						{% endif %}
+						{% if page.language == 'en' %}
+						<li><a href="/fr">FR</a></li>
+						{% endif %}
 					</ul>
 				</div>
 			</div>
 		</div>
-
 		<img class="bottom-diagonal-navbar hidden-xs hidden-sm" src="media/img/navbar-diagonal-{{ site.navbar_color }}.png" alt="">
 	</div>
 	<!-- End Navbar -->
