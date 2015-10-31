@@ -4,12 +4,12 @@
 			<div class="container padding-top-100 padding-bottom-100">
 				<div class="row">
 					<div class="col-lg-12">
-						<blockquote class="text-white text-center">{{ site.blockquote.text }}</blockquote>
-						
-						<h3 class="text-brand-main-color text-center">{{ site.blockquote.tagline }}</h3>
-						
+						<blockquote class="text-white text-center">{{ site.blockquote[page.language].text }}</blockquote>
+
+						<h3 class="text-brand-main-color text-center">{{ site.blockquote[page.language].tagline }}</h3>
+
 						<p class="text-center margin-top-40">
-							<a href="{{ site.blockquote.button_url }}" class="btn btn-default" target="_blank">{{ site.blockquote.button_text }}</a>
+							<a href="{{ site.blockquote[page.language].button_url }}" class="btn btn-default" target="_blank">{{ site.blockquote[page.language].button_text }}</a>
 						</p>
 					</div>
 				</div>

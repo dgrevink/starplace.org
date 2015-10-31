@@ -4,13 +4,13 @@
 		<div class="container padding-top-50 padding-bottom-50">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1 class="text-center">Features.</h1>
+					<h1 class="text-center">{{site.navbar_links[page.language][1].title}}.</h1>
 					<hr class="margin-bottom-50">
-					
+
 					<!-- Features -->
 					<div class="margin-top-30 margin-bottom-30">
 						<div class="row">
-							{% for thumbs in site.features_thumbs %}
+							{% for thumbs in site.features_thumbs[page.language] %}
 							<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 								<!-- Feature Thumb -->
 								<div class="features-thumb">
@@ -27,7 +27,7 @@
 										</div>
 										<!-- End Icon -->
 
-										<p>{{ thumbs.description }}</p>		
+										<p>{{ thumbs.description }}</p>
 									</div>
 								</div>
 								<!-- End Feature Thumb -->

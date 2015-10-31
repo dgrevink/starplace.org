@@ -1,2 +1,4 @@
 dist
 source/node_modules
+
+*.sublime-workspace
