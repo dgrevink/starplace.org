@@ -1,4 +1,5 @@
 dist
 source/node_modules
-
+source/_js/min
+source/js/min
 *.sublime-workspace
