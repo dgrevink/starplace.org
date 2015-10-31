@@ -153,7 +153,7 @@ function initialize() {
         center: latLng,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         scrollwheel: false,
-        draggable: false
+        draggable: true
     };
 
     domMap = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
