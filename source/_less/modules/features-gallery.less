@@ -3,9 +3,9 @@
    ========================================================================== */
 
 .features-thumb {
-	
+
 	margin-bottom: 10px;
-	border-bottom-right-radius: 60px;
+	border-bottom-right-radius: @feature-radius;
 	border-right: 1px solid @brand-main-color;
 	border-bottom: 1px solid @brand-main-color;
 	.transition(all, @transitions-delay, ease);
@@ -13,7 +13,7 @@
 	.thumb-header {
 
 		width: 100%;
-		border-top-left-radius: 60px;
+		border-top-left-radius: @feature-radius;
 		padding: 5px 0 5px 0;
 		.transition(all, @transitions-delay, ease);
 
@@ -29,7 +29,7 @@
 
 		padding: 15px 15px;
 		border-left: 1px solid @brand-main-color;
-		border-bottom-right-radius: 60px;
+		border-bottom-right-radius: @feature-radius;
 		.transition(all, @transitions-delay, ease);
 
 		i.fa {
