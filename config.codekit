@@ -137,6 +137,26 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
+	"\/dist\/js\/mikes-modal.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/js\/mikes-modal.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/dist\/js\/mikes-modal.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/js\/mikes-modal.min.js",
+		"outputAbbreviatedPath": "\/dist\/js\/min\/mikes-modal.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
+		},
 	"\/dist\/js\/min\/main-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -504,9 +524,31 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 30776,
+		"initialSize": 69665,
 		"inputAbbreviatedPath": "\/dist\/media\/projects\/blobaland\/blobaland-small.jpg",
 		"outputAbbreviatedPath": "\/dist\/media\/projects\/blobaland\/blobaland-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/media\/projects\/blobaland\/blobaland.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 289861,
+		"inputAbbreviatedPath": "\/dist\/media\/projects\/blobaland\/blobaland.jpg",
+		"outputAbbreviatedPath": "\/dist\/media\/projects\/blobaland\/blobaland.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/media\/projects\/blobaland\/blobaland.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79167,
+		"inputAbbreviatedPath": "\/dist\/media\/projects\/blobaland\/blobaland.png",
+		"outputAbbreviatedPath": "\/dist\/media\/projects\/blobaland\/blobaland.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -544,6 +586,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/media\/projects\/creaf\/creaf-logo-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25157,
+		"inputAbbreviatedPath": "\/dist\/media\/projects\/creaf\/creaf-logo-thumb.jpg",
+		"outputAbbreviatedPath": "\/dist\/media\/projects\/creaf\/creaf-logo-thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/media\/projects\/creaf\/creaf-logo-thumb.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -566,6 +619,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/media\/projects\/creaf\/creaf.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52327,
+		"inputAbbreviatedPath": "\/dist\/media\/projects\/creaf\/creaf.jpg",
+		"outputAbbreviatedPath": "\/dist\/media\/projects\/creaf\/creaf.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/media\/projects\/fepi\/fepi-background.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -577,6 +641,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/media\/projects\/fepi\/fepi-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58538,
+		"inputAbbreviatedPath": "\/dist\/media\/projects\/fepi\/fepi-thumb.jpg",
+		"outputAbbreviatedPath": "\/dist\/media\/projects\/fepi\/fepi-thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/media\/projects\/fepi\/fepi-thumb.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -584,6 +659,17 @@
 		"initialSize": 15597,
 		"inputAbbreviatedPath": "\/dist\/media\/projects\/fepi\/fepi-thumb.png",
 		"outputAbbreviatedPath": "\/dist\/media\/projects\/fepi\/fepi-thumb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/media\/projects\/fepi\/fepi.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110502,
+		"inputAbbreviatedPath": "\/dist\/media\/projects\/fepi\/fepi.jpg",
+		"outputAbbreviatedPath": "\/dist\/media\/projects\/fepi\/fepi.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -658,7 +744,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 11825,
+		"initialSize": 57962,
 		"inputAbbreviatedPath": "\/dist\/media\/projects\/piwb\/piwb-thumb.jpg",
 		"outputAbbreviatedPath": "\/dist\/media\/projects\/piwb\/piwb-thumb.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -672,6 +758,17 @@
 		"initialSize": 120276,
 		"inputAbbreviatedPath": "\/dist\/media\/projects\/piwb\/piwb-v1-vertical.jpg",
 		"outputAbbreviatedPath": "\/dist\/media\/projects\/piwb\/piwb-v1-vertical.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/media\/projects\/piwb\/piwb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123350,
+		"inputAbbreviatedPath": "\/dist\/media\/projects\/piwb\/piwb.jpg",
+		"outputAbbreviatedPath": "\/dist\/media\/projects\/piwb\/piwb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -790,9 +887,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 26207,
+		"initialSize": 42355,
 		"inputAbbreviatedPath": "\/dist\/media\/projects\/toppsv2\/toppsv2-small.jpg",
 		"outputAbbreviatedPath": "\/dist\/media\/projects\/toppsv2\/toppsv2-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/media\/projects\/toppsv2\/toppsv2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156435,
+		"inputAbbreviatedPath": "\/dist\/media\/projects\/toppsv2\/toppsv2.jpg",
+		"outputAbbreviatedPath": "\/dist\/media\/projects\/toppsv2\/toppsv2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -808,6 +916,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/media\/projects\/websitesapp\/websitesapp-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50348,
+		"inputAbbreviatedPath": "\/dist\/media\/projects\/websitesapp\/websitesapp-thumb.jpg",
+		"outputAbbreviatedPath": "\/dist\/media\/projects\/websitesapp\/websitesapp-thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/media\/projects\/websitesapp\/websitesapp-thumb.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -815,6 +934,17 @@
 		"initialSize": 17958,
 		"inputAbbreviatedPath": "\/dist\/media\/projects\/websitesapp\/websitesapp-thumb.png",
 		"outputAbbreviatedPath": "\/dist\/media\/projects\/websitesapp\/websitesapp-thumb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/media\/projects\/websitesapp\/websitesapp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67470,
+		"inputAbbreviatedPath": "\/dist\/media\/projects\/websitesapp\/websitesapp.jpg",
+		"outputAbbreviatedPath": "\/dist\/media\/projects\/websitesapp\/websitesapp.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -946,8 +1076,8 @@
 		"outputAbbreviatedPath": "\/source\/_js\/min\/console-errors-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/source\/_js\/document-ready.js": {
 		"fileType": 64,
@@ -957,8 +1087,8 @@
 		"outputAbbreviatedPath": "\/source\/_js\/min\/document-ready-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/source\/_js\/google-maps.js": {
 		"fileType": 64,
@@ -968,8 +1098,30 @@
 		"outputAbbreviatedPath": "\/source\/_js\/min\/google-maps-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
+		},
+	"\/source\/_js\/min\/document-ready-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/_js\/min\/document-ready-min.js",
+		"outputAbbreviatedPath": "\/source\/_js\/min\/min\/document-ready-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
+		},
+	"\/source\/_js\/min\/widgets-config-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/_js\/min\/widgets-config-min.js",
+		"outputAbbreviatedPath": "\/source\/_js\/min\/min\/widgets-config-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/source\/_js\/widgets-config.js": {
 		"fileType": 64,
@@ -979,8 +1131,8 @@
 		"outputAbbreviatedPath": "\/source\/_js\/min\/widgets-config-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/source\/_js\/window-onload.js": {
 		"fileType": 64,
@@ -990,8 +1142,8 @@
 		"outputAbbreviatedPath": "\/source\/_js\/min\/window-onload-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/source\/_js\/window-resize.js": {
 		"fileType": 64,
@@ -1001,8 +1153,8 @@
 		"outputAbbreviatedPath": "\/source\/_js\/min\/window-resize-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/source\/_layouts\/default.html": {
 		"fileType": 8192,
@@ -1302,6 +1454,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/source\/en\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/en\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/source\/fr\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1319,8 +1480,8 @@
 		"outputAbbreviatedPath": "\/source\/min\/Gruntfile-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/source\/icons\/apple-touch-icon-114-precomposed.png": {
 		"fileType": 32768,
@@ -1394,8 +1555,8 @@
 		"outputAbbreviatedPath": "\/source\/js\/min\/html5shiv-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/source\/js\/jquery.hidenavbaronscroll.js": {
 		"fileType": 64,
@@ -1405,8 +1566,19 @@
 		"outputAbbreviatedPath": "\/source\/js\/min\/jquery.hidenavbaronscroll-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
+		},
+	"\/source\/js\/js.cookie.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/js\/js.cookie.js",
+		"outputAbbreviatedPath": "\/source\/js\/min\/js.cookie-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/source\/js\/main.js": {
 		"fileType": 64,
@@ -1416,8 +1588,28 @@
 		"outputAbbreviatedPath": "\/source\/js\/min\/main-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
+		},
+	"\/source\/js\/mikes-modal.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/js\/mikes-modal.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/source\/js\/mikes-modal.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/js\/mikes-modal.min.js",
+		"outputAbbreviatedPath": "\/source\/js\/min\/mikes-modal.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/source\/js\/min\/main-min.js": {
 		"fileType": 64,
@@ -1427,8 +1619,8 @@
 		"outputAbbreviatedPath": "\/source\/js\/min\/min\/main-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/source\/js\/modernizr-2.6.2.min.js": {
 		"fileType": 64,
@@ -1438,8 +1630,8 @@
 		"outputAbbreviatedPath": "\/source\/js\/min\/modernizr-2.6.2.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/source\/js\/respond.min.js": {
 		"fileType": 64,
@@ -1449,8 +1641,8 @@
 		"outputAbbreviatedPath": "\/source\/js\/min\/respond.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/source\/js\/retina.min.js": {
 		"fileType": 64,
@@ -1460,8 +1652,8 @@
 		"outputAbbreviatedPath": "\/source\/js\/min\/retina.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/source\/js\/skrollr.min.js": {
 		"fileType": 64,
@@ -1471,30 +1663,8 @@
 		"outputAbbreviatedPath": "\/source\/js\/min\/skrollr.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/source\/media\/img\/13869085934_d3280bab9a_o.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.13418e+06,
-		"inputAbbreviatedPath": "\/source\/media\/img\/13869085934_d3280bab9a_o.jpg",
-		"outputAbbreviatedPath": "\/source\/media\/img\/13869085934_d3280bab9a_o.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/source\/media\/img\/16225251348_8aa8b72326_o.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.05856e+06,
-		"inputAbbreviatedPath": "\/source\/media\/img\/16225251348_8aa8b72326_o.jpg",
-		"outputAbbreviatedPath": "\/source\/media\/img\/16225251348_8aa8b72326_o.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/source\/media\/img\/background-image-01.jpg": {
 		"fileType": 16384,
@@ -1536,6 +1706,28 @@
 		"initialSize": 1.09691e+06,
 		"inputAbbreviatedPath": "\/source\/media\/img\/hero-image.jpg",
 		"outputAbbreviatedPath": "\/source\/media\/img\/hero-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/source\/media\/img\/ideas\/13869085934_d3280bab9a_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.13418e+06,
+		"inputAbbreviatedPath": "\/source\/media\/img\/ideas\/13869085934_d3280bab9a_o.jpg",
+		"outputAbbreviatedPath": "\/source\/media\/img\/ideas\/13869085934_d3280bab9a_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/source\/media\/img\/ideas\/16225251348_8aa8b72326_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.05856e+06,
+		"inputAbbreviatedPath": "\/source\/media\/img\/ideas\/16225251348_8aa8b72326_o.jpg",
+		"outputAbbreviatedPath": "\/source\/media\/img\/ideas\/16225251348_8aa8b72326_o.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1793,6 +1985,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/source\/media\/projects\/blobaland\/blobaland.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 289861,
+		"inputAbbreviatedPath": "\/source\/media\/projects\/blobaland\/blobaland.jpg",
+		"outputAbbreviatedPath": "\/source\/media\/projects\/blobaland\/blobaland.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/source\/media\/projects\/blobaland\/blobaland.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79167,
+		"inputAbbreviatedPath": "\/source\/media\/projects\/blobaland\/blobaland.png",
+		"outputAbbreviatedPath": "\/source\/media\/projects\/blobaland\/blobaland.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/source\/media\/projects\/creaf\/creaf-01.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1826,6 +2040,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/source\/media\/projects\/creaf\/creaf-logo-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25157,
+		"inputAbbreviatedPath": "\/source\/media\/projects\/creaf\/creaf-logo-thumb.jpg",
+		"outputAbbreviatedPath": "\/source\/media\/projects\/creaf\/creaf-logo-thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/source\/media\/projects\/creaf\/creaf-logo-thumb.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1848,6 +2073,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/source\/media\/projects\/creaf\/creaf.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60394,
+		"inputAbbreviatedPath": "\/source\/media\/projects\/creaf\/creaf.jpg",
+		"outputAbbreviatedPath": "\/source\/media\/projects\/creaf\/creaf.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/source\/media\/projects\/fepi\/fepi-background.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1859,6 +2095,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/source\/media\/projects\/fepi\/fepi-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58538,
+		"inputAbbreviatedPath": "\/source\/media\/projects\/fepi\/fepi-thumb.jpg",
+		"outputAbbreviatedPath": "\/source\/media\/projects\/fepi\/fepi-thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/source\/media\/projects\/fepi\/fepi-thumb.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1866,6 +2113,17 @@
 		"initialSize": 15597,
 		"inputAbbreviatedPath": "\/source\/media\/projects\/fepi\/fepi-thumb.png",
 		"outputAbbreviatedPath": "\/source\/media\/projects\/fepi\/fepi-thumb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/source\/media\/projects\/fepi\/fepi.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83284,
+		"inputAbbreviatedPath": "\/source\/media\/projects\/fepi\/fepi.jpg",
+		"outputAbbreviatedPath": "\/source\/media\/projects\/fepi\/fepi.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1954,6 +2212,17 @@
 		"initialSize": 120276,
 		"inputAbbreviatedPath": "\/source\/media\/projects\/piwb\/piwb-v1-vertical.jpg",
 		"outputAbbreviatedPath": "\/source\/media\/projects\/piwb\/piwb-v1-vertical.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/source\/media\/projects\/piwb\/piwb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123350,
+		"inputAbbreviatedPath": "\/source\/media\/projects\/piwb\/piwb.jpg",
+		"outputAbbreviatedPath": "\/source\/media\/projects\/piwb\/piwb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2079,6 +2348,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/source\/media\/projects\/toppsv2\/toppsv2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156435,
+		"inputAbbreviatedPath": "\/source\/media\/projects\/toppsv2\/toppsv2.jpg",
+		"outputAbbreviatedPath": "\/source\/media\/projects\/toppsv2\/toppsv2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/source\/media\/projects\/websitesapp\/websitesapp-background.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2090,6 +2370,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/source\/media\/projects\/websitesapp\/websitesapp-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62005,
+		"inputAbbreviatedPath": "\/source\/media\/projects\/websitesapp\/websitesapp-thumb.jpg",
+		"outputAbbreviatedPath": "\/source\/media\/projects\/websitesapp\/websitesapp-thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/source\/media\/projects\/websitesapp\/websitesapp-thumb.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2097,6 +2388,17 @@
 		"initialSize": 17958,
 		"inputAbbreviatedPath": "\/source\/media\/projects\/websitesapp\/websitesapp-thumb.png",
 		"outputAbbreviatedPath": "\/source\/media\/projects\/websitesapp\/websitesapp-thumb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/source\/media\/projects\/websitesapp\/websitesapp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67470,
+		"inputAbbreviatedPath": "\/source\/media\/projects\/websitesapp\/websitesapp.jpg",
+		"outputAbbreviatedPath": "\/source\/media\/projects\/websitesapp\/websitesapp.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2307,8 +2609,8 @@
 	"javascriptAutoOutputPathReplace2": "",
 	"javascriptAutoOutputPathStyle": 2,
 	"javascriptCreateSourceMap": 1,
-	"javascriptOutputStyle": 1,
-	"javascriptSyntaxCheckerStyle": 1,
+	"javascriptOutputStyle": 0,
+	"javascriptSyntaxCheckerStyle": 0,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
