@@ -4,17 +4,11 @@
 current_version:  1.0.0
 name:         starplace.org
 
-# Multiple languages
-languages:          ['en', 'fr']
-language_default:   'fr'
-language:           'fr'
-
 # Main Logo
 # -------------------------
 
-logo_regular: "media/logo/logo_regular.png"
+logo_regular:       "media/logo/logo_regular.png"
 logo_small_devices: "media/logo/logo_small.png"
-
 
 # Main Navigation Links
 # -------------------------
@@ -44,7 +38,7 @@ navbar_links:
       url: "#contact"
 
 # Navigation Background Color.
-# Options: caribbean-green, summer-sky, golden-poppy, deep-carmine-pink
+# Options: caribbean-green, summer-sky, golden-poppy, deep-carmine-pink, starplace-orange
 navbar_color: "starplace-orange"
 
 # Image Hero
@@ -55,8 +49,8 @@ title:
   fr: "FRstarplace.org"
 
 tagline:
-  en: "taglines"
-  fr: "FRtaglines"
+  en: ""
+  fr: ""
 
 # Features Thumbs
 # -------------------------
@@ -119,15 +113,15 @@ features_thumbs:
 
 blockquote:
   en:
-     text: "We develop online marketing solutions that help enterprises accurately identify the consumers that truly need their services."
-     tagline: "Serving the community since 2014"
-     button_text: "Read More"
-     button_url: "#_"
+     text: ""
+     tagline: ""
+     button_text: ""
+     button_url: ""
   fr:
-     text: "FRWe develop online marketing solutions that help enterprises accurately identify the consumers that truly need their services."
-     tagline: "Serving the community since 2014"
-     button_text: "Read More"
-     button_url: "#_"
+     text: ""
+     tagline: ""
+     button_text: ""
+     button_url: ""
 
 # Services
 # -------------------------
@@ -144,15 +138,15 @@ services:
      icon: "magic"
      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur officiis vel aspernatur. Quidem eligendi sequi veritatis vel recusandae porro maxime corporis id, deleniti harum alias asperiores soluta unde aliquam."
   fr:
-   - title: "FR_Front-End Development"
+   - title: "Applicatif web"
      icon: "desktop"
-     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur officiis vel aspernatur. Quidem eligendi sequi veritatis vel recusandae porro maxime corporis id, deleniti harum alias asperiores soluta unde aliquam."
+     description: "Gestionnaires de contenu, de clients, d'inventaire, je développe des applicatifs web sur mesure."
    - title: "iOS Development"
      icon: "apple"
      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur officiis vel aspernatur. Quidem eligendi sequi veritatis vel recusandae porro maxime corporis id, deleniti harum alias asperiores soluta unde aliquam."
    - title: "UI/UX Design"
      icon: "magic"
-     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur officiis vel aspernatur. Quidem eligendi sequi veritatis vel recusandae porro maxime corporis id, deleniti harum alias asperiores soluta unde aliquam."
+     description: "Analyse "
 
 # Work Mosaic
 # -------------------------

@@ -25,4 +25,17 @@ $(document).ready(function() {
 	// Widgets config
 	widgetsConfig();
 
+	var language = 'en'; // default
+    if (!Cookies.get('language')) {
+		var userLanguage = navigator.language || navigator.userLanguage;
+		if ( (userLanguage != 'en') && (userLanguage != 'fr')) {
+			userLanguage = language;
+		}
+		Cookies.set('language', userLanguage);
+		window.location.href = '/' + language;
+    }
+    else {
+    	language = Cookies.get('language');
+    }
+
 });
