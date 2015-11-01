@@ -12,11 +12,11 @@
 
 					<a class="navbar-brand" href="{{ site.navbar_links[page.language][0].url }}">
 						<div class="visible-lg visible-md margin-top-10">
-							<img src="{{ site.logo_regular }}" alt="{{ site.name }} Logo">
+							<img src="{{ base }}/{{ site.logo_regular }}" alt="{{ site.name }} Logo">
 						</div>
 
 						<div class="visible-sm visible-xs">
-							<img src="{{ site.logo_small_devices }}" alt="{{ site.name }} Logo" style='margin-top: -6px;'>
+							<img src="{{ base }}/{{ site.logo_small_devices }}" alt="{{ site.name }} Logo" style='margin-top: -6px;'>
 						</div>
 					</a>
 				</div>
@@ -36,6 +36,6 @@
 				</div>
 			</div>
 		</div>
-		<img class="bottom-diagonal-navbar hidden-xs hidden-sm" src="media/img/navbar-diagonal-{{ site.navbar_color }}.png" alt="">
+		<img class="bottom-diagonal-navbar hidden-xs hidden-sm" src="{{ base }}/media/img/navbar-diagonal-{{ site.navbar_color }}.png" alt="">
 	</div>
 	<!-- End Navbar -->
