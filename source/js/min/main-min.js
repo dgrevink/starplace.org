@@ -141,7 +141,14 @@ var repositionWelcome = function() {
 
 	// Welcome text for hero
 	$welcome 	= $('.welcome');
-	welcomeTop  = ((windowHeight/2) - ($welcome.height()/2) - 100) + "px";
+	welcomeTop  = ((windowHeight/2) - ($welcome.height()/2));
+	if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		welcomeTop = 50;
+	}
+	else {
+		welcomeTop = welcomeTop - 100;
+	}
+	welcomeTop  = welcomeTop + "px";
 	$welcome.css({ position : 'absolute', top : welcomeTop });
 
 }
@@ -168,11 +175,11 @@ function initialize() {
     latLng = new google.maps.LatLng(contactLatitude, contactLongitude);
 
     var mapOptions = {
-        zoom: 15,
+        zoom: 10,
         center: latLng,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         scrollwheel: false,
-        draggable: true
+        draggable: false
     };
 
     domMap = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);

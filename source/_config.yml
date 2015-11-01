@@ -4,6 +4,14 @@
 current_version:  1.0.0
 name:         starplace.org
 
+description:
+  en: "Web and iOS development in beautiful Quebec City!"
+  fr: ""
+
+keywords:
+  en: "Web, iOS, Apple, internet, responsive, development, CMS, CRM, Inventory, Accounting, sizzle, canada, quebec"
+  fr: ""
+
 # Main Logo
 # -------------------------
 
@@ -49,7 +57,7 @@ title:
   fr: "FRstarplace.org"
 
 tagline:
-  en: "Welcome to starplace.org ! My name is David Grevink and I live on the Island of Orléans near Québec, Canada. I am a developer and designer and have been involved in computing for about 16 years now."
+  en: "Welcome! My name is David Grevink and I live on the Island of Orléans near Québec, Canada. I am a developer and designer and have been involved in computing for about 16 years now.<br/><br/>I am currently a Consultant at <a href='http://neuro-design.com' class='text-brand-main-color' target='_blank'>Neuro Design</a>, and currently available for small-scale and unofficial projects, scroll down to know more!"
   fr: ""
 
 # Features Thumbs
@@ -128,25 +136,25 @@ blockquote:
 
 services:
   en:
-   - title: "Front-End Development"
+   - title: "Custom Software for Businesses"
      icon: "desktop"
-     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur officiis vel aspernatur. Quidem eligendi sequi veritatis vel recusandae porro maxime corporis id, deleniti harum alias asperiores soluta unde aliquam."
-   - title: "iOS Development"
-     icon: "apple"
-     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur officiis vel aspernatur. Quidem eligendi sequi veritatis vel recusandae porro maxime corporis id, deleniti harum alias asperiores soluta unde aliquam."
-   - title: "UI/UX Design"
-     icon: "magic"
-     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur officiis vel aspernatur. Quidem eligendi sequi veritatis vel recusandae porro maxime corporis id, deleniti harum alias asperiores soluta unde aliquam."
+     description: "Not happy with off-the-shelf web applications? Starplace can build solutions to run exactly how your business needs!"
+   - title: "Mobile App Development"
+     icon: "mobile"
+     description: "Looking for a reliable partner to build responsive or native mobile apps for iOS? I'll build & design them exactly how you need them!"
+   - title: "Website Design & Development"
+     icon: "globe"
+     description: "Whether you need a new website from scratch or you just need help with your WordPress site, I've got you covered!"
   fr:
-   - title: "Applicatif web"
+   - title: "Custom Software for Businesses"
      icon: "desktop"
-     description: "Gestionnaires de contenu, de clients, d'inventaire, je développe des applicatifs web sur mesure."
-   - title: "iOS Development"
+     description: "Not happy with off-the-shelf web applications? Starplace can build solutions to run exactly how your business needs!"
+   - title: "Mobile App Development"
      icon: "apple"
-     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur officiis vel aspernatur. Quidem eligendi sequi veritatis vel recusandae porro maxime corporis id, deleniti harum alias asperiores soluta unde aliquam."
-   - title: "UI/UX Design"
+     description: "Looking for a reliable company to build responsive or native mobile apps for iOS? I'll build & design it exactly how you need."
+   - title: "Website Design & Development"
      icon: "magic"
-     description: "Analyse "
+     description: "Whether you need a new website from scratch or you just need help with your WordPress site, we've got you covered."
 
 # Work Mosaic
 # -------------------------

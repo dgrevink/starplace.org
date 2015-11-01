@@ -16,7 +16,7 @@
 						</div>
 
 						<div class="visible-sm visible-xs">
-							<img src="{{ site.logo_small_devices }}" alt="{{ site.name }} Logo">
+							<img src="{{ site.logo_small_devices }}" alt="{{ site.name }} Logo" style='margin-top: -6px;'>
 						</div>
 					</a>
 				</div>
@@ -26,12 +26,12 @@
 						{% for link in site.navbar_links[page.language] %}
 						<li><a href="{{ link.url }}">{{ link.title }}</a></li>
 						{% endfor %}
-						{% if page.language == 'fr' %}
+<!-- 						{% if page.language == 'fr' %}
 						<li><a href="/en">EN</a></li>
 						{% endif %}
 						{% if page.language == 'en' %}
 						<li><a href="/fr">FR</a></li>
-						{% endif %}
+						{% endif %} -->
 					</ul>
 				</div>
 			</div>

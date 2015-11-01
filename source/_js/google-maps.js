@@ -11,11 +11,11 @@ function initialize() {
     latLng = new google.maps.LatLng(contactLatitude, contactLongitude);
 
     var mapOptions = {
-        zoom: 15,
+        zoom: 10,
         center: latLng,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         scrollwheel: false,
-        draggable: true
+        draggable: false
     };
 
     domMap = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
